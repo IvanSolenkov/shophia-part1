@@ -103,5 +103,17 @@
     .connection{
         align-items: center;
     }
+}
 
+/* Landscape */
+@media only screen and (max-width: 900px) and (orientation: landscape){
+    /* Sale */
+    .sale{
+        height: 130vh;
+    }
+
+    /* Customers */
+    .customers{
+        height: 190vh;
+    }
 }
