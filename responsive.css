@@ -1,0 +1,107 @@
+ /* Responsive Design */
+  /* Portrait */
+  @media only screen and (max-width: 900px) {
+    /* AccMenu*/
+    .nav-elements ul{
+        justify-content: center;
+    }
+    .nav-elements li{
+        border-right: none;
+        padding: 0px 12px;
+        margin-bottom: 15px;
+    }
+    .nav-elements a{
+        font-size: 16px;
+    }
+
+    /* Header */
+    .header{
+        flex-direction: column;
+    }
+    .head-nav ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    .head-nav li{
+        margin-bottom: 15px;
+    }
+    .head-nav a{
+        font-size: 20px;
+    }
+    .social-elements ul{
+        margin-right: 0;
+    }
+
+     /* Sale */
+     .sale{
+        height: 65vh;
+        background-position-x: right;
+    }
+
+    /* Shipping */
+    .free-shipping:after{
+        left: 78%;
+        border: 5px solid transparent;
+    }
+    .free-shipping, .support, .return-money{
+        margin-bottom: 15px;
+    }
+    .return-money:after{
+        left: 76%;
+        border: 48px solid transparent;
+        border-right: 40px solid #FFFFFF;
+    }
+    .support:after{
+        right: 88px;
+    }
+
+     /* Titles */
+     .titles .title-square{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .titles .text-title{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+     /* HandCollection */
+     .hand-collection #img2, .hand-collection #img3, .hand-collection #img4, .hand-collection #img5{
+        height: 300px;
+        width: 310px;
+    }
+    .hand-collection #img1{
+        width: 310px;
+        margin-bottom: 10px;
+    }
+
+     /* SummerCollection */
+    .top-collection, .bottom-collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-collection img, .bottom-collection img{
+        height: 250px;
+        width: 230px;
+        margin-right: 0;
+    }
+    .model-div button{
+        left: 35px;
+    }
+
+      /* Customers */
+      .customers{
+        height: 140vh;
+        align-items: center;
+    }
+
+    /* Footer */  
+    .footer-items{
+        justify-content: center;
+    }
+    .connection{
+        align-items: center;
+    }
+
+}
